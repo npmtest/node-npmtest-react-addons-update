@@ -1,6 +1,6 @@
 # npmtest-react-addons-update
 
-#### test coverage for  [react-addons-update (v15.5.2)](https://github.com/facebook/react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-addons-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-addons-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-addons-update.svg)](https://travis-ci.org/npmtest/node-npmtest-react-addons-update)
+#### basic test coverage for  [react-addons-update (v15.5.2)](https://github.com/facebook/react#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-react-addons-update.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-addons-update) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-addons-update.svg)](https://travis-ci.org/npmtest/node-npmtest-react-addons-update)
 
 #### >**Note:** >This is a legacy React addon, and is no longer maintained. > >We don't encourage using it in new code, but it exists for backwards compatibility.   >The recommended migration path is to use [`immutability-helper`](https://github.com/kolodny/im
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-addons-update/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-addons-update/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-addons-update/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-addons-update/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-addons-update/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-addons-update/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-addons-update/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-addons-update/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-addons-update/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-addons-update/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-addons-update/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-addons-update/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
     "scripts": {
         "test": "jest"
     },
-    "version": "15.5.2"
+    "version": "15.5.2",
+    "bin": {}
 }
 ```
 
